@@ -14,7 +14,7 @@ metadata:
 ```
 dataset/          # 最终数据集（Git 跟踪）
   slang.yaml      # 歇后語 616条, riddle + answer
-  vocab.yaml      # 词汇表 497条, term + definition + section
+  vocab-short.yaml      # 词汇表 497条, term + definition + section
   syntax.md       # 语法特点长文
 input/            # 原始书页图片 (gitignore)
 sentences/          # 歇后語书页
@@ -36,7 +36,7 @@ scripts/          # OCR 与后处理脚本（adhoc，会变动）
 
 按首字笔画数升序排列。
 
-### vocab.yaml — 词汇表
+### vocab-short.yaml — 词汇表（精简版）
 
 ```yaml
 - term: 板定
