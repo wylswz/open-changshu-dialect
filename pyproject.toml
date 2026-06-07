@@ -1,0 +1,15 @@
+[project]
+name = "csh"
+version = "0.1.0"
+description = "常熟方言 (Changshu Dialect) 语料数据集"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "openai>=2.41.0",
+    "paddleocr>=3.6.0",
+    "paddlepaddle>=3.3.1",
+    "paddlex[ocr]>=3.6.1",
+    "pillow>=12.2.0",
+    "pyyaml>=6.0",
+]
