@@ -60,8 +60,9 @@
 - 《常熟方言词汇》，广陵书社
 
 ## 数字化流程
+注：本仓库工作流程需要 Agent 辅助。
 
-1. **原始图片** → `input/` 目录，按页码命名为 `1.jpg` ~ `N.jpg`
+1. **原始图片** → `input/` 目录，命名为 `1.jpg` ~ `N.jpg`
 2. **OCR 识别** → `scripts/ocr_vlm.py` 使用 GPT-5.5 Vision 模型提取文字
 3. **人工校对** → 对比 OCR 与 VLM 结果，修正识别错误
 4. **格式化** → 转换为 YAML / Markdown，存入 `dataset/`
